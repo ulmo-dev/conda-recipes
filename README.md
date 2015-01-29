@@ -11,10 +11,8 @@ Building for all platforms from works because the dependencies
 are pure python. Other more complicated dependencies are already
 available in conda.
 
-Note: 
-    you must be a member of the ulmo binstar org for the upload 
-    to work
+**you must be a member of the ulmo binstar org for the upload to work**
 
 To install ulmo using conda type:
 
-conda install -c https://conda.binstar.org/ulmo ulmo
+    conda install -c https://conda.binstar.org/ulmo ulmo
