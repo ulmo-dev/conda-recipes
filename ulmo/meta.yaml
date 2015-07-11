@@ -1,16 +1,18 @@
 package:
   name: ulmo
-  version: !!str 0.7.6
+  version: !!str 0.7.8
 
 source:
-  fn: ulmo-0.7.6.tar.gz
-  url: https://pypi.python.org/packages/source/u/ulmo/ulmo-0.7.6.tar.gz
-  md5: 1d8fbfd4514c98a373469c209164927c
+  fn: ulmo-0.7.8.tar.gz
+  url: https://pypi.python.org/packages/source/u/ulmo/ulmo-0.7.8.tar.gz
+  md5: 77399fec522ed3db9a4a22d9e62b9513
 #  patches:
    # List any patch files here
    # - fix.patch
 
-# build:
+build:
+  noarch: True
+#  number: 1
   #preserve_egg_dir: True
   #entry_points:
     # Put any entry points (scripts to be generated automatically) here. The

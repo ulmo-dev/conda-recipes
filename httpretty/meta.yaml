@@ -1,16 +1,17 @@
 package:
   name: httpretty
-  version: !!str 0.8.3
+  version: !!str 0.8.6
 
 source:
-  fn: httpretty-0.8.3.tar.gz
-  url: https://pypi.python.org/packages/source/h/httpretty/httpretty-0.8.3.tar.gz
-  md5: 50b02560a49fe928c90c53a49791f621
+  fn: httpretty-0.8.6.tar.gz
+  url: https://pypi.python.org/packages/source/h/httpretty/httpretty-0.8.6.tar.gz
+  md5: d45e7e831b6e66974ba231453a715f39
 #  patches:
    # List any patch files here
    # - fix.patch
 
-# build:
+#build:
+  #noarch: True
   #preserve_egg_dir: True
   #entry_points:
     # Put any entry points (scripts to be generated automatically) here. The
